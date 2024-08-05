@@ -1,0 +1,10 @@
+{
+	"chromeWebSecurity": false,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+	"integrationFolder": "E:/jobadder-1/integration",
+	"fixturesFolder": "E:/jobadder-1/fixtures"
+
+}
+
+
