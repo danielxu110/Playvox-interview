@@ -8,6 +8,7 @@ Project layout
 ---
 ### UI Automation framework
 UI Automation Framework:
+
     |--cypress(folder)
         |--e2e(test file)
             |--api.cy.ts(API test)
