@@ -40,13 +40,12 @@ describe('API TEST - POST, GET', () => {
     const newBooking: Booking = errorBook;
     cy.createBooking(newBooking).then(({ status }) => {
         expect(status).to.eq(500);
-    });
-    
+    });  
   });
 
   it('gets the booking by id - GET', () => {
     cy.getBooking(bookingId).then(({ status }) => {
-      expect(status).to.eq(200);
+        expect(status).to.eq(200);
     });
   });
 });

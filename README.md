@@ -40,6 +40,11 @@ UI Automation Framework:
 You need to install Node.js in your local computer.
 * Node.js
 
+### Download the project
+```sh
+git clone https://github.com/danielxu110/Playvox-interview.git
+```
+
 ### Running the tests
 
 ```sh

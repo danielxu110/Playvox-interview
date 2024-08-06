@@ -11,8 +11,7 @@ describe('Test creating and update items', () => {
 
     beforeEach(() => {
         cy.login();
-
-        cy.visit('/web/index.php/pim/viewEmployeeList')
+        cy.visit('/web/index.php/pim/viewEmployeeList');
     });
 
     after(() => {

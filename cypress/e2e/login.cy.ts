@@ -12,7 +12,6 @@ describe('log in testing', () => {
     });
 
     it('log in with invalid username and valid password and verify error message', () => {
-        // const loginInstance = new LoginPage();
         loginInstance.enterUsername('abcd');
         loginInstance.enterPassword('admin123');
         loginInstance.submit();
@@ -20,7 +19,6 @@ describe('log in testing', () => {
     });
 
     it('log in with valid username and invalid password and verify error message', () => {
-        // const loginInstance = new LoginPage();
         loginInstance.enterUsername('Admin');
         loginInstance.enterPassword('123');
         loginInstance.submit();
@@ -28,7 +26,6 @@ describe('log in testing', () => {
     });
 
     it('log in with valid username and password', () => {
-        // const loginInstance = new LoginPage();
         loginInstance.enterUsername('Admin');
         loginInstance.enterPassword('admin123');
         loginInstance.submit();
@@ -36,7 +33,6 @@ describe('log in testing', () => {
     });
 
     it('log out', () => {
-        // const loginInstance = new LoginPage();
         loginInstance.enterUsername('Admin');
         loginInstance.enterPassword('admin123');
         loginInstance.submit();
